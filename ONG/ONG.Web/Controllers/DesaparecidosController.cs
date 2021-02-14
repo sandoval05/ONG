@@ -13,7 +13,7 @@ namespace ONG.Web.Controllers
         public ActionResult Index()
         {
             var desaparecidoBL = new DesaparecidosBL();
-            var listaDesaparecidos = desaparecidoBL.ObtenerDesaparecido();
+            var listaDesaparecidos = desaparecidoBL.ObtenerDesaparecidos();
 
 
 

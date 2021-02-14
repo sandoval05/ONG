@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ONG.BL
 {
-    public class Desaparecido
+    public class Desaparecidos
     {
         public int Id { get; set; }
         public string PNombre { get; set; }

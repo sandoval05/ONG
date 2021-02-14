@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ONG.BL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,11 +16,15 @@ namespace ONG.Win
         public Form1()
         {
             InitializeComponent();
+
+            var desaparecidoBL = new DesaparecidosBL();
+            var listaDesaparecidos = desaparecidoBL.ObtenerDesaparecidos();
+            listaDesaparecidosBindingSource.DataSource = listaDesaparecidos;
+
+
+
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Hola Mundo");
-        }
+      
     }
 }
