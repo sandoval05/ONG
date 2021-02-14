@@ -1,19 +1,16 @@
-﻿using ONG.Web.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace ONG.Web.Controllers
+namespace ONG.WebAdmin.Controllers
 {
-    public class DesaparecidosController : Controller
+    public class HomeController : Controller
     {
-        // GET: Desaparecidos
+        // GET: Home
         public ActionResult Index()
         {
-            
-
             return View();
         }
     }
