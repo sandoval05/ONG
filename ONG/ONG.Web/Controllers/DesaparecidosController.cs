@@ -1,4 +1,4 @@
-﻿using ONG.Web.Models;
+﻿using ONG.BL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,9 +12,13 @@ namespace ONG.Web.Controllers
         // GET: Desaparecidos
         public ActionResult Index()
         {
-            
+            var desaparecidoBL = new DesaparecidosBL();
+            var listaDesaparecidos = desaparecidoBL.ObtenerDesaparecido();
 
-            return View();
+
+
+
+            return View(listaDesaparecidos);
         }
     }
 }

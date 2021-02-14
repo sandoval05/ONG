@@ -21,7 +21,7 @@ namespace ONG.BL
             desaparecido1.Genero = "M";
 
             var desaparecido2 = new Desaparecido();
-            desaparecido2.Id = 1;
+            desaparecido2.Id = 2;
             desaparecido2.PNombre = "Gerson";
             desaparecido2.SNombre = "Alejandro";
             desaparecido2.PApellido = "Sandoval";
