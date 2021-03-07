@@ -10,7 +10,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{3C7487E6-0831-43AD-9F33-000E69A363CF}</ProjectGuid>
+    <ProjectGuid>{744108CD-078B-4FCA-BFED-3FD713992C15}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -140,9 +140,23 @@
     <Content Include="scripts\jquery-1.10.2.min.js" />
     <Content Include="scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
+    <Content Include="Views\Desaparecidos\Index.cshtml" />
+    <Content Include="Views\Desaparecidos\Crear.cshtml" />
+    <Content Include="Views\Desaparecidos\Editar.cshtml" />
+    <Content Include="Views\Desaparecidos\Detalle.cshtml" />
+    <Content Include="Views\Desaparecidos\Eliminar.cshtml" />
+    <Content Include="Views\Categorias\Index.cshtml" />
+    <Content Include="Views\Categorias\Crear.cshtml" />
+    <Content Include="Views\Categorias\Editar.cshtml" />
+    <Content Include="Views\Categorias\Detalle.cshtml" />
+    <Content Include="Views\Categorias\Eliminar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\BeneficiariosController.cs" />
+    <Compile Include="Controllers\BeneficiosController.cs" />
+    <Compile Include="Controllers\CategoriasController.cs" />
+    <Compile Include="Controllers\DesaparecidosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -162,6 +176,16 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Beneficios\Index.cshtml" />
+    <Content Include="Views\Beneficios\Crear.cshtml" />
+    <Content Include="Views\Beneficios\Editar.cshtml" />
+    <Content Include="Views\Beneficios\Detalle.cshtml" />
+    <Content Include="Views\Beneficios\Eliminar.cshtml" />
+    <Content Include="Views\Beneficiarios\Index.cshtml" />
+    <Content Include="Views\Beneficiarios\Crear.cshtml" />
+    <Content Include="Views\Beneficiarios\Editar.cshtml" />
+    <Content Include="Views\Beneficiarios\Detalle.cshtml" />
+    <Content Include="Views\Beneficiarios\Eliminar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -171,11 +195,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Imagenes\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ONG.BL\ONG.BL.csproj">
-      <Project>{01962d26-433c-4de9-bfbe-09ea6974029e}</Project>
+      <Project>{df125a1d-f5d8-47c2-bd13-6ee6916329b6}</Project>
       <Name>ONG.BL</Name>
     </ProjectReference>
   </ItemGroup>
@@ -192,9 +217,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>5466</DevelopmentServerPort>
+          <DevelopmentServerPort>64761</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:5466/</IISUrl>
+          <IISUrl>http://localhost:64761/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

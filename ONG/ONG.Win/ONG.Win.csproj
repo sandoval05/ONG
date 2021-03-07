@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8C43A8C6-FECD-4B58-888B-23F99943C965}</ProjectGuid>
+    <ProjectGuid>{FA8FF500-9124-45E8-9527-6E05FB9F3FD4}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ONG.Win</RootNamespace>
@@ -95,7 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ONG.BL\ONG.BL.csproj">
-      <Project>{01962d26-433c-4de9-bfbe-09ea6974029e}</Project>
+      <Project>{df125a1d-f5d8-47c2-bd13-6ee6916329b6}</Project>
       <Name>ONG.BL</Name>
     </ProjectReference>
   </ItemGroup>

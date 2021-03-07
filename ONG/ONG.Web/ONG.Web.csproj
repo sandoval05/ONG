@@ -10,7 +10,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{7000AF51-BC3C-4FCC-9700-B2C43B0CDC59}</ProjectGuid>
+    <ProjectGuid>{0352CBCD-327F-463D-9AC6-0C5759FCD528}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -141,19 +141,11 @@
     <Content Include="scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
     <Content Include="Views\Desaparecidos\Index.cshtml" />
-    <Content Include="Views\Peticion\Index.cshtml" />
-    <Content Include="Views\Clima\Index.cshtml" />
-    <Content Include="Views\Telemetricas\Index.cshtml" />
-    <Content Include="Views\Psicosocial\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\ClimaController.cs" />
     <Compile Include="Controllers\DesaparecidosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\PeticionController.cs" />
-    <Compile Include="Controllers\PsicosocialController.cs" />
-    <Compile Include="Controllers\TelemetricasController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -185,7 +177,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ONG.BL\ONG.BL.csproj">
-      <Project>{01962d26-433c-4de9-bfbe-09ea6974029e}</Project>
+      <Project>{df125a1d-f5d8-47c2-bd13-6ee6916329b6}</Project>
       <Name>ONG.BL</Name>
     </ProjectReference>
   </ItemGroup>
@@ -202,9 +194,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>5146</DevelopmentServerPort>
+          <DevelopmentServerPort>64567</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:5146/</IISUrl>
+          <IISUrl>http://localhost:64567/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

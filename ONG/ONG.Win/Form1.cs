@@ -16,15 +16,10 @@ namespace ONG.Win
         public Form1()
         {
             InitializeComponent();
+            var desaparecidosBL = new DesaparecidosBL();
+            var listadeDesaparecidos = desaparecidosBL.ObtenerDesaparecidos();
 
-            var desaparecidoBL = new DesaparecidosBL();
-            var listaDesaparecidos = desaparecidoBL.ObtenerDesaparecidos();
-            listaDesaparecidosBindingSource.DataSource = listaDesaparecidos;
-
-
-
+            listadeDesaparecidosBindingSource.DataSource = listadeDesaparecidos;
         }
-
-      
     }
 }

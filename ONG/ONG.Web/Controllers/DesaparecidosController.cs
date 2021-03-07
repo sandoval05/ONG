@@ -12,13 +12,11 @@ namespace ONG.Web.Controllers
         // GET: Desaparecidos
         public ActionResult Index()
         {
-            var desaparecidoBL = new DesaparecidosBL();
-            var listaDesaparecidos = desaparecidoBL.ObtenerDesaparecidos();
+            var desaparecidosBL = new DesaparecidosBL();
+            var listadeDesaparecidos = desaparecidosBL.ObtenerDesaparecidos();
 
 
-
-
-            return View(listaDesaparecidos);
+            return View(listadeDesaparecidos);
         }
     }
 }

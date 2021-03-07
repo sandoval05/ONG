@@ -5,7 +5,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{01962D26-433C-4DE9-BFBE-09EA6974029E}</ProjectGuid>
+    <ProjectGuid>{DF125A1D-F5D8-47C2-BD13-6EE6916329B6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ONG.BL</RootNamespace>
@@ -52,8 +52,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Beneficiario.cs" />
+    <Compile Include="BeneficiariosBL.cs" />
+    <Compile Include="Beneficio.cs" />
+    <Compile Include="BeneficiosBL.cs" />
+    <Compile Include="Categoria.cs" />
+    <Compile Include="CategoriasBL.cs" />
     <Compile Include="Contexto.cs" />
-    <Compile Include="Desaparecidos.cs" />
+    <Compile Include="Desaparecido.cs" />
     <Compile Include="DesaparecidosBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

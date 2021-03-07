@@ -30,8 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.listaDesaparecidosBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.listaDesaparecidosBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.listadeDesaparecidosBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.listadeDesaparecidosBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
@@ -43,8 +43,8 @@
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
-            this.listaDesaparecidosBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
-            this.listaDesaparecidosDataGridView = new System.Windows.Forms.DataGridView();
+            this.listadeDesaparecidosBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
+            this.listadeDesaparecidosDataGridView = new System.Windows.Forms.DataGridView();
             this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -53,23 +53,23 @@
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.listaDesaparecidosBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listaDesaparecidosBindingNavigator)).BeginInit();
-            this.listaDesaparecidosBindingNavigator.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.listaDesaparecidosDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.listadeDesaparecidosBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.listadeDesaparecidosBindingNavigator)).BeginInit();
+            this.listadeDesaparecidosBindingNavigator.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.listadeDesaparecidosDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
-            // listaDesaparecidosBindingSource
+            // listadeDesaparecidosBindingSource
             // 
-            this.listaDesaparecidosBindingSource.DataSource = typeof(ONG.BL.Desaparecidos);
+            this.listadeDesaparecidosBindingSource.DataSource = typeof(ONG.BL.Desaparecido);
             // 
-            // listaDesaparecidosBindingNavigator
+            // listadeDesaparecidosBindingNavigator
             // 
-            this.listaDesaparecidosBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
-            this.listaDesaparecidosBindingNavigator.BindingSource = this.listaDesaparecidosBindingSource;
-            this.listaDesaparecidosBindingNavigator.CountItem = this.bindingNavigatorCountItem;
-            this.listaDesaparecidosBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
-            this.listaDesaparecidosBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.listadeDesaparecidosBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
+            this.listadeDesaparecidosBindingNavigator.BindingSource = this.listadeDesaparecidosBindingSource;
+            this.listadeDesaparecidosBindingNavigator.CountItem = this.bindingNavigatorCountItem;
+            this.listadeDesaparecidosBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
+            this.listadeDesaparecidosBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bindingNavigatorMoveFirstItem,
             this.bindingNavigatorMovePreviousItem,
             this.bindingNavigatorSeparator,
@@ -81,17 +81,17 @@
             this.bindingNavigatorSeparator2,
             this.bindingNavigatorAddNewItem,
             this.bindingNavigatorDeleteItem,
-            this.listaDesaparecidosBindingNavigatorSaveItem});
-            this.listaDesaparecidosBindingNavigator.Location = new System.Drawing.Point(0, 0);
-            this.listaDesaparecidosBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
-            this.listaDesaparecidosBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
-            this.listaDesaparecidosBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
-            this.listaDesaparecidosBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
-            this.listaDesaparecidosBindingNavigator.Name = "listaDesaparecidosBindingNavigator";
-            this.listaDesaparecidosBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.listaDesaparecidosBindingNavigator.Size = new System.Drawing.Size(856, 25);
-            this.listaDesaparecidosBindingNavigator.TabIndex = 0;
-            this.listaDesaparecidosBindingNavigator.Text = "bindingNavigator1";
+            this.listadeDesaparecidosBindingNavigatorSaveItem});
+            this.listadeDesaparecidosBindingNavigator.Location = new System.Drawing.Point(0, 0);
+            this.listadeDesaparecidosBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
+            this.listadeDesaparecidosBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
+            this.listadeDesaparecidosBindingNavigator.MoveNextItem = this.bindingNavigatorMoveNextItem;
+            this.listadeDesaparecidosBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
+            this.listadeDesaparecidosBindingNavigator.Name = "listadeDesaparecidosBindingNavigator";
+            this.listadeDesaparecidosBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
+            this.listadeDesaparecidosBindingNavigator.Size = new System.Drawing.Size(751, 25);
+            this.listadeDesaparecidosBindingNavigator.TabIndex = 0;
+            this.listadeDesaparecidosBindingNavigator.Text = "bindingNavigator1";
             // 
             // bindingNavigatorMoveFirstItem
             // 
@@ -178,20 +178,20 @@
             this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
             this.bindingNavigatorDeleteItem.Text = "Eliminar";
             // 
-            // listaDesaparecidosBindingNavigatorSaveItem
+            // listadeDesaparecidosBindingNavigatorSaveItem
             // 
-            this.listaDesaparecidosBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.listaDesaparecidosBindingNavigatorSaveItem.Enabled = false;
-            this.listaDesaparecidosBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("listaDesaparecidosBindingNavigatorSaveItem.Image")));
-            this.listaDesaparecidosBindingNavigatorSaveItem.Name = "listaDesaparecidosBindingNavigatorSaveItem";
-            this.listaDesaparecidosBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 22);
-            this.listaDesaparecidosBindingNavigatorSaveItem.Text = "Guardar datos";
+            this.listadeDesaparecidosBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.listadeDesaparecidosBindingNavigatorSaveItem.Enabled = false;
+            this.listadeDesaparecidosBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("listadeDesaparecidosBindingNavigatorSaveItem.Image")));
+            this.listadeDesaparecidosBindingNavigatorSaveItem.Name = "listadeDesaparecidosBindingNavigatorSaveItem";
+            this.listadeDesaparecidosBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 22);
+            this.listadeDesaparecidosBindingNavigatorSaveItem.Text = "Guardar datos";
             // 
-            // listaDesaparecidosDataGridView
+            // listadeDesaparecidosDataGridView
             // 
-            this.listaDesaparecidosDataGridView.AutoGenerateColumns = false;
-            this.listaDesaparecidosDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.listaDesaparecidosDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.listadeDesaparecidosDataGridView.AutoGenerateColumns = false;
+            this.listadeDesaparecidosDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.listadeDesaparecidosDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
             this.dataGridViewTextBoxColumn2,
             this.dataGridViewTextBoxColumn3,
@@ -200,11 +200,11 @@
             this.dataGridViewTextBoxColumn6,
             this.dataGridViewTextBoxColumn7,
             this.dataGridViewTextBoxColumn8});
-            this.listaDesaparecidosDataGridView.DataSource = this.listaDesaparecidosBindingSource;
-            this.listaDesaparecidosDataGridView.Location = new System.Drawing.Point(12, 47);
-            this.listaDesaparecidosDataGridView.Name = "listaDesaparecidosDataGridView";
-            this.listaDesaparecidosDataGridView.Size = new System.Drawing.Size(832, 220);
-            this.listaDesaparecidosDataGridView.TabIndex = 1;
+            this.listadeDesaparecidosDataGridView.DataSource = this.listadeDesaparecidosBindingSource;
+            this.listadeDesaparecidosDataGridView.Location = new System.Drawing.Point(12, 27);
+            this.listadeDesaparecidosDataGridView.Name = "listadeDesaparecidosDataGridView";
+            this.listadeDesaparecidosDataGridView.Size = new System.Drawing.Size(727, 248);
+            this.listadeDesaparecidosDataGridView.TabIndex = 1;
             // 
             // dataGridViewTextBoxColumn1
             // 
@@ -214,26 +214,26 @@
             // 
             // dataGridViewTextBoxColumn2
             // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "PNombre";
-            this.dataGridViewTextBoxColumn2.HeaderText = "PNombre";
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "Primer_Nombre";
+            this.dataGridViewTextBoxColumn2.HeaderText = "Primer_Nombre";
             this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
             // 
             // dataGridViewTextBoxColumn3
             // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "SNombre";
-            this.dataGridViewTextBoxColumn3.HeaderText = "SNombre";
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "Segundo_Nombre";
+            this.dataGridViewTextBoxColumn3.HeaderText = "Segundo_Nombre";
             this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
             // 
             // dataGridViewTextBoxColumn4
             // 
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "PApellido";
-            this.dataGridViewTextBoxColumn4.HeaderText = "PApellido";
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "Primer_Apellido";
+            this.dataGridViewTextBoxColumn4.HeaderText = "Primer_Apellido";
             this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
             // 
             // dataGridViewTextBoxColumn5
             // 
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "SApellido";
-            this.dataGridViewTextBoxColumn5.HeaderText = "SApellido";
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "Segundo_Apellido";
+            this.dataGridViewTextBoxColumn5.HeaderText = "Segundo_Apellido";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
             // 
             // dataGridViewTextBoxColumn6
@@ -250,24 +250,24 @@
             // 
             // dataGridViewTextBoxColumn8
             // 
-            this.dataGridViewTextBoxColumn8.DataPropertyName = "Genero";
-            this.dataGridViewTextBoxColumn8.HeaderText = "Genero";
+            this.dataGridViewTextBoxColumn8.DataPropertyName = "Sexo";
+            this.dataGridViewTextBoxColumn8.HeaderText = "Sexo";
             this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(856, 361);
-            this.Controls.Add(this.listaDesaparecidosDataGridView);
-            this.Controls.Add(this.listaDesaparecidosBindingNavigator);
+            this.ClientSize = new System.Drawing.Size(751, 287);
+            this.Controls.Add(this.listadeDesaparecidosDataGridView);
+            this.Controls.Add(this.listadeDesaparecidosBindingNavigator);
             this.Name = "Form1";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.listaDesaparecidosBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.listaDesaparecidosBindingNavigator)).EndInit();
-            this.listaDesaparecidosBindingNavigator.ResumeLayout(false);
-            this.listaDesaparecidosBindingNavigator.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.listaDesaparecidosDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.listadeDesaparecidosBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.listadeDesaparecidosBindingNavigator)).EndInit();
+            this.listadeDesaparecidosBindingNavigator.ResumeLayout(false);
+            this.listadeDesaparecidosBindingNavigator.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.listadeDesaparecidosDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -275,8 +275,8 @@
 
         #endregion
 
-        private System.Windows.Forms.BindingSource listaDesaparecidosBindingSource;
-        private System.Windows.Forms.BindingNavigator listaDesaparecidosBindingNavigator;
+        private System.Windows.Forms.BindingSource listadeDesaparecidosBindingSource;
+        private System.Windows.Forms.BindingNavigator listadeDesaparecidosBindingNavigator;
         private System.Windows.Forms.ToolStripButton bindingNavigatorAddNewItem;
         private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorDeleteItem;
@@ -288,8 +288,8 @@
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveNextItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
-        private System.Windows.Forms.ToolStripButton listaDesaparecidosBindingNavigatorSaveItem;
-        private System.Windows.Forms.DataGridView listaDesaparecidosDataGridView;
+        private System.Windows.Forms.ToolStripButton listadeDesaparecidosBindingNavigatorSaveItem;
+        private System.Windows.Forms.DataGridView listadeDesaparecidosDataGridView;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
