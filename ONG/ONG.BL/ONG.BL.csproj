@@ -61,6 +61,8 @@
     <Compile Include="Contexto.cs" />
     <Compile Include="Desaparecido.cs" />
     <Compile Include="DesaparecidosBL.cs" />
+    <Compile Include="Orden.cs" />
+    <Compile Include="OrdenesBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

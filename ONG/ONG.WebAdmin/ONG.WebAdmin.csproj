@@ -158,6 +158,8 @@
     <Compile Include="Controllers\CategoriasController.cs" />
     <Compile Include="Controllers\DesaparecidosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\OrdenDetalleController.cs" />
+    <Compile Include="Controllers\OrdenesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -186,6 +188,13 @@
     <Content Include="Views\Beneficiarios\Editar.cshtml" />
     <Content Include="Views\Beneficiarios\Detalle.cshtml" />
     <Content Include="Views\Beneficiarios\Eliminar.cshtml" />
+    <Content Include="Views\Ordenes\Index.cshtml" />
+    <Content Include="Views\Ordenes\Crear.cshtml" />
+    <Content Include="Views\Ordenes\Detalle.cshtml" />
+    <Content Include="Views\Ordenes\Editar.cshtml" />
+    <Content Include="Views\OrdenDetalle\Index.cshtml" />
+    <Content Include="Views\OrdenDetalle\Crear.cshtml" />
+    <Content Include="Views\OrdenDetalle\Eliminar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
