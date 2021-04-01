@@ -30,7 +30,7 @@ namespace ONG.WebAdmin.Controllers
             var nuevaOrdenDetalle = new OrdenDetalle();
             nuevaOrdenDetalle.OrdenId = id;
 
-            var beneficios = _beneficiosBL.ObtenerBeneficios();
+            var beneficios = _beneficiosBL.ObtenerBeneficiosActivos();
 
             ViewBag.Beneficioid = new SelectList(beneficios, "id", "descripcion");
             return View(nuevaOrdenDetalle);
@@ -50,7 +50,7 @@ namespace ONG.WebAdmin.Controllers
             }
           
 
-            var beneficios = _beneficiosBL.ObtenerBeneficios();
+            var beneficios = _beneficiosBL.ObtenerBeneficiosActivos();
             ViewBag.Beneficioid = new SelectList(beneficios, "id", "descripcion");
 
             return View(ordenDetalle);

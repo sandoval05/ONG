@@ -25,6 +25,19 @@ namespace ONG.BL
 
             ListadeBeneficios = _contexto.Beneficios
                 .Include("Categoria")
+                 .OrderBy(r => r.Categoria.Descripcion)
+                  .ThenBy(r => r.descripcion)
+                .ToList();
+
+            return ListadeBeneficios;
+        }
+        public List<Beneficio> ObtenerBeneficiosActivos()
+        {
+
+            ListadeBeneficios = _contexto.Beneficios
+                .Include("Categoria")
+                .Where(r => r.Activo == true )
+                .OrderBy(r => r.Categoria.Descripcion)
                 .ToList();
 
             return ListadeBeneficios;
@@ -41,8 +54,10 @@ namespace ONG.BL
             {
                 var beneficioExistente = _contexto.Beneficios.Find(beneficio.id);
                 beneficioExistente.descripcion = beneficio.descripcion;
+                beneficioExistente.CategoriaId = beneficio.CategoriaId;
                 beneficioExistente.valor = beneficio.valor;
                 beneficioExistente.UrlImagen = beneficio.UrlImagen;
+                beneficioExistente.Activo = beneficio.Activo;
             }
 
             _contexto.SaveChanges();

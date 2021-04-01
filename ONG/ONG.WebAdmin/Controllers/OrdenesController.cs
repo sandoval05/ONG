@@ -30,7 +30,7 @@ namespace ONG.WebAdmin.Controllers
         public ActionResult Crear()
         {
             var nuevaOrden = new Orden();
-            var beneficiarios = _beneficiariosBL.ObtenerBeneficiarios();
+            var beneficiarios = _beneficiariosBL.ObtenerBeneficiariosActivos();
 
             ViewBag.BeneficiarioId = new SelectList(beneficiarios,"Id", "Nombre");
 
@@ -51,7 +51,7 @@ namespace ONG.WebAdmin.Controllers
                 return RedirectToAction("Index");
             }
 
-            var beneficiarios = _beneficiariosBL.ObtenerBeneficiarios();
+            var beneficiarios = _beneficiariosBL.ObtenerBeneficiariosActivos();
 
             ViewBag.BeneficiarioId = new SelectList(beneficiarios, "Id", "Nombre");
 
@@ -61,7 +61,7 @@ namespace ONG.WebAdmin.Controllers
         public ActionResult Editar (int Id)
         {
             var orden = _ordenesBL.ObtenerOrden(Id);
-            var beneficiarios = _beneficiariosBL.ObtenerBeneficiarios();
+            var beneficiarios = _beneficiariosBL.ObtenerBeneficiariosActivos();
 
             ViewBag.BeneficiarioId = new SelectList(beneficiarios, "Id", "Nombre", orden.BeneficiarioId);
 
@@ -82,7 +82,7 @@ namespace ONG.WebAdmin.Controllers
                 return RedirectToAction("Index");
             }
 
-            var beneficiarios = _beneficiariosBL.ObtenerBeneficiarios();
+            var beneficiarios = _beneficiariosBL.ObtenerBeneficiariosActivos();
 
             ViewBag.BeneficiarioId = new SelectList(beneficiarios, "Id", "Nombres",orden.BeneficiarioId);
             return View(orden);
