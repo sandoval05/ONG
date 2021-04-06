@@ -56,31 +56,53 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home" class="smoothScroll">INICIO</a></li>
+                    <li><a href="home" class="smoothScroll">INICIO</a></li>
                     <li><a href="#work" class="smoothScroll">APOYO</a></li>
                     <li><a href="#about" class="smoothScroll">ACERCA DE</a></li>
                     <li><a href="#team" class="smoothScroll">EQUIPO</a></li>
                     <li><a href="#portfolio" class="smoothScroll">ACCIONES</a></li>
                     <li><a href="#pricing" class="smoothScroll">BENEFICIOS</a></li>
                     <li><a href="#contact" class="smoothScroll">CONTACTANOS</a></li>
+                    <li>@Html.ActionLink("DESAPARECIDOS", "Index", "Desaparecidos", new { area = "" }, new { @class = "navbar-brand" })</li>
+                  
                 </ul>
             </div>
         </div>
     </section>
 
     <!-- home section -->
-    <section id="home">
+    <section id="about">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <h3>RESCATE/ DESAPARECIDOS/ AYUDA HUMANITARIA</h3>
-                    <h1>JUNTOS PODEMOS HACER LA DIFERENCIA</h1>
-                    <hr>
-                    <a href="#work" class="smoothScroll btn btn-danger">QUIERES AYUDAR</a>
-                    <a href="#contact" class="smoothScroll btn btn-default">INFORMACION</a>
+                <div class="col-md-12 col-sm-12 text-center">
+                    <div class="section-title">
+                        <strong></strong>
+                        <h1 class="heading bold">JUNTOS PODEMOS HACER LA DIFERENCIA</h1>
+                        <hr>
+                    </div>
                 </div>
-            </div>
-        </div>
+                <div class="col-md-6 col-sm-12">
+                    <img src="~/images/solidaridad-2.jpg" class="img-responsive" alt="about img">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <img src="~/images/solidaridad.jpg" class="img-responsive" alt="about img">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                   
+                   <div class="section-title">
+                                        
+                     <h1> <a href="#work" class="smoothScroll btn btn-danger">QUIERES AYUDAR</a></h1>
+                    <h1> <a href="#contact" class="smoothScroll btn btn-default">INFORMACION</a></h1>
+                                           
+                     </div>
+                         
+                                  
+                    </div>
+                            </div>
+                        </div>
+               
+                
+      
     </section>
 
     <!-- work section -->
@@ -200,16 +222,15 @@
                             <ul class="social-icon">
                                 <li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
                                 <li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-                                <li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
-                            </ul>
+                           </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="1.3s">
                     <div class="team-wrapper">
-                        <img src="~/images/Nelson.jpeg" class="img-responsive" alt="team img">
+                        <img src="~/images/alejandra.jpeg" class="img-responsive" alt="team img">
                         <div class="team-des">
-                            <h4>NELSON SANDOVAL</h4>
+                            <h4>ALEJANDRA CASTILLO</h4>
                             <h3>RESCATE ACUATICO</h3>
                             <hr>
                             <ul class="social-icon">
@@ -222,7 +243,7 @@
                 </div>
                 <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="1.6s">
                     <div class="team-wrapper">
-                        <img src="images/team3.jpg" class="img-responsive" alt="team img">
+                        <img src="~/images/catherin.jpeg" class="img-responsive" alt="team img">
                         <div class="team-des">
                             <h4>CATHERIN CANTILLANO</h4>
                             <h3>DIRECTORA</h3>
@@ -230,14 +251,13 @@
                             <ul class="social-icon">
                                 <li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
                                 <li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-                                <li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 wow fadeIn" data-wow-delay="1.6s">
                     <div class="team-wrapper">
-                        <img src="images/team4.jpg" class="img-responsive" alt="team img">
+                        <img src="~/images/denuar.jpeg" class="img-responsive" alt="team img">
                         <div class="team-des">
                             <h4>DENUAR BARNICA</h4>
                             <h3>PRESIDENTE</h3>
@@ -268,37 +288,40 @@
                     <!-- ISO section -->
                     <div class="iso-section">
                         <ul class="filter-wrapper clearfix">
-                            <li><a href="#" data-filter="*" class="selected opc-main-bg">All</a></li>
-                            <li><a href="#" class="opc-main-bg" data-filter=".html">HTML</a></li>
-                            <li><a href="#" class="opc-main-bg" data-filter=".photoshop">Photoshop</a></li>
-                            <li><a href="#" class="opc-main-bg" data-filter=".wordpress">Wordpress</a></li>
-                            <li><a href="#" class="opc-main-bg" data-filter=".mobile">Mobile</a></li>
+                            <li><a href="#" data-filter="*" class="selected opc-main-bg">ACCIONES EN HONDURAS</a></li>
+                        
                         </ul>
                         <div class="iso-box-section wow fadeIn" data-wow-delay="0.9s">
                             <div class="iso-box-wrapper col4-iso-box">
 
                                 <div class="iso-box html wordpress mobile col-lg-4 col-md-4 col-sm-6">
                                     <a href="~/images/palma.jpeg" data-lightbox-gallery="portfolio-gallery"><img src="~/images/palma.jpeg" alt="portfolio img"></a>
+                                    <h4>FINCA DE PALMA TRAS EL PASO DE ETA</h4>
                                 </div>
 
                                 <div class="iso-box wordpress col-lg-4 col-md-4 col-sm-6">
                                     <a href="~/images/ayuda2.jpeg" data-lightbox-gallery="portfolio-gallery"><img src="~/images/ayuda2.jpeg" alt="portfolio img"></a>
+                                    <h4>SOCORRISTA NELSON SANDOVAL</h4>
                                 </div>
 
                                 <div class="iso-box html mobile col-lg-4 col-md-4 col-sm-6">
                                     <a href="~/images/ayuda4.jpeg" data-lightbox-gallery="portfolio-gallery"><img src="~/images/ayuda4.jpeg" alt="portfolio img"></a>
+                                    <h4>MONITOREO DEL RIO ULUA</h4>
                                 </div>
 
                                 <div class="iso-box wordpress col-lg-4 col-md-4 col-sm-6">
                                     <a href="~/images/ayuda.jpeg" data-lightbox-gallery="portfolio-gallery"><img src="~/images/ayuda.jpeg" alt="portfolio img"></a>
+                                    <h4>ENTREGA DE ALIMENTOS</h4>
                                 </div>
 
                                 <div class="iso-box html photoshop col-lg-4 col-md-4 col-sm-6">
                                     <a href="~/images/ayuda1.jpeg" data-lightbox-gallery="portfolio-gallery"><img src="~/images/ayuda1.jpeg" alt="portfolio img"></a>
+                                    <h4>EVALUACIÓN DE DAÑOS</h4>
                                 </div>
 
                                 <div class="iso-box photoshop col-lg-4 col-md-4 col-sm-6">
                                     <a href="~/images/ayuda5.jpeg" data-lightbox-gallery="portfolio-gallery"><img src="~/images/ayuda5.jpeg" alt="portfolio img"></a>
+                                    <h4>RESCATE AEREO</h4>
                                 </div>
 
                             </div>
@@ -324,49 +347,66 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="plan plan-one wow bounceIn" data-wow-delay="0.3s">
                         <div class="plan_title">
-                            <img src="images/team4.jpg" class="img-responsive" alt="team img">
-                            <h3>BASIC</h3>
-                            <h2>$150 <span>per year</span></h2>
+                            <img src="~/images/edu.jpg" class="img-responsive" alt="team img">
+                            <ul>
+                                <li></li>
+                           
+                            </ul>
+                            <h3>EDUCATIVO</h3>
                         </div>
                         <ul>
-                            <li>100 GB Cloud Storage</li>
-                            <li>5 Pro Websites</li>
-                            <li>10 Secured Emails</li>
-                            <li>24-hour Support</li>
+                            <li></li>
+                          
                         </ul>
-                        <button class="btn btn-warning">Get it now</button>
+                        <button class="btn btn-warning">CONTACTANOS</button>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="plan plan-two wow bounceIn" data-wow-delay="0.3s">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                  
+                        </ul>
                         <div class="plan_title">
-                            <img src="images/team4.jpg" class="img-responsive" alt="team img">
-                            <h3>BUSINESS</h3>
-                            <h2>$260 <span>per year</span></h2>
+                            <img src="~/images/retornado2.jpg" class="img-responsive" alt="team img">
+                            <h3>OCULAR</h3>
+                            
                         </div>
                         <ul>
-                            <li>200 GB Cloud Storage</li>
-                            <li>10 Pro Websites</li>
-                            <li>20 Secured Emails</li>
-                            <li>30-Minute Support</li>
+                            <li></li>
+                            <li></li>
+                      
                         </ul>
-                        <button class="btn btn-warning">Take this!</button>
+                        <button class="btn btn-warning">CONTACTANOS</button>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="plan plan-three wow bounceIn" data-wow-delay="0.3s">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+
+                        </ul>
                         <div class="plan_title">
-                            <img src="images/team4.jpg" class="img-responsive" alt="team img">
-                            <h3>PROFESSIONAL</h3>
-                            <h2>$380 <span>per year</span></h2>
+                            <img src="~/images/retornado3.jpg" class="img-responsive" alt="team img">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                            <h3>SALUD</h3>
+                            <h2><span></span></h2>
                         </div>
                         <ul>
-                            <li>500 GB Cloud Storage</li>
-                            <li>20 Pro Websites</li>
-                            <li>40 Secured Emails</li>
-                            <li>Live Support</li>
+                            <li></li>
+                            <li></li>
                         </ul>
-                        <button class="btn btn-warning">Buy Now</button>
+                        <button class="btn btn-warning">CONTACTANOS</button>
                     </div>
                 </div>
             </div>
@@ -380,35 +420,35 @@
                 <div class="col-md-12 col-sm-12 text-center">
                     <div class="section-title">
                         <strong>06</strong>
-                        <h1 class="heading bold">CONTACT US</h1>
+                        <h1 class="heading bold">COMO CONTACTARNOS</h1>
                         <hr>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12 contact-info">
-                    <h2 class="heading bold">CONTACT INFO</h2>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteu sunt in culpa qui officia deserunt mollit anim id.</p>
+                    <h2 class="heading bold">INFORMACIÓN DE CONTACTO:</h2>
+                    <p></p>
                     <div class="col-md-6 col-sm-4">
-                        <h3><i class="icon-envelope medium-icon wow bounceIn" data-wow-delay="0.6s"></i> EMAIL</h3>
-                        <p>hello@company.com</p>
+                        <h3><i class="icon-envelope medium-icon wow bounceIn" data-wow-delay="0.6s"></i> CORREO ELECTRONICO</h3>
+                        <p>ayuda@ong.hn</p>
                     </div>
                     <div class="col-md-6 col-sm-4">
-                        <h3><i class="icon-phone medium-icon wow bounceIn" data-wow-delay="0.6s"></i> PHONES</h3>
-                        <p>010-020-0340 | 090-080-0760</p>
+                        <h3><i class="icon-phone medium-icon wow bounceIn" data-wow-delay="0.6s"></i>NÚMERO DE TELEFONO</h3>
+                        <p>(+504) 3323-5548 | 9846-5878</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12">
                     <form action="#" method="get" class="wow fadeInUp" data-wow-delay="0.6s">
                         <div class="col-md-6 col-sm-6">
-                            <input type="text" class="form-control" placeholder="Name" name="name">
+                            <input type="text" class="form-control" placeholder="Nombre" name="name">
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <input type="email" class="form-control" placeholder="Email" name="email">
                         </div>
                         <div class="col-md-12 col-sm-12">
-                            <textarea class="form-control" placeholder="Message" rows="7" name="message"></textarea>
+                            <textarea class="form-control" placeholder="Mensaje" rows="7" name="message"></textarea>
                         </div>
                         <div class="col-md-offset-4 col-md-8 col-sm-offset-4 col-sm-8">
-                            <input type="submit" class="form-control" value="SEND MESSAGE">
+                            <input type="submit" class="form-control" value="Enviar Mensaje">
                         </div>
                     </form>
                 </div>
@@ -426,8 +466,6 @@
                     <ul class="social-icon">
                         <li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
                         <li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
-                        <li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
-                        <li><a href="#" class="fa fa-behance wow fadeIn" data-wow-delay="0.9s"></a></li>
                         <li><a href="#" class="fa fa-tumblr wow fadeIn" data-wow-delay="0.9s"></a></li>
                     </ul>
                 </div>

@@ -156,10 +156,9 @@
     <Content Include="images\contact-bg.jpg" />
     <Content Include="images\fondo.jpg" />
     <Content Include="images\home-bg-slideshow1.jpg" />
-    <Content Include="images\home-bg-slideshow2.jpg" />
     <Content Include="images\Nelson.jpeg" />
     <Content Include="images\objetivos-desarrollo-sostenible.jpg" />
-    <Content Include="images\ONG-ODS.jpg" />
+    <Content Include="images\home-bg-slideshow2.jpg" />
     <Content Include="images\ONG.png" />
     <Content Include="images\ongg.jpg" />
     <Content Include="images\palma.jpeg" />
@@ -206,7 +205,6 @@
     <Content Include="scripts\jquery-1.10.2.min.js" />
     <Content Include="scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
-    <Content Include="Views\Desaparecidos\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -230,6 +228,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Shared\dgd.cshtml" />
+    <Content Include="Views\Desaparecidos\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
