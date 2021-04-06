@@ -45,7 +45,7 @@
     {
         <tr>
             <td>
-                <img src="@item.UrlImagen" style="width:80px; height:auto;" />
+                <img src="@(ViewBag.adminWebsiteUrl + item.UrlImagen)" style="width:80px; height:auto;" />
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Primer_Nombre)

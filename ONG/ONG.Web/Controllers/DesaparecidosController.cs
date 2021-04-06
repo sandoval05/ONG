@@ -10,13 +10,12 @@ namespace ONG.Web.Controllers
 {
     public class DesaparecidosController : Controller
     {
-
-
+       
         // GET: Desaparecidos
         public ActionResult Index()
         {
             var _desaparecidosBL = new DesaparecidosBL();
-            var listadeDesaparecidos = _desaparecidosBL.ObtenerDesaparecidos();
+            var listadeDesaparecidos = _desaparecidosBL.ObtenerDesaparecidosActivos();
 
             ViewBag.adminWebsiteUrl = ConfigurationManager.AppSettings["adminWebsiteUrl"];
 
